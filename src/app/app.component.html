@@ -1,0 +1,15 @@
+<p>
+    Message from push: {{ message | async | json }}
+</p>
+
+<hr>
+
+<button (click)="sendToBackground()">
+    Send to background
+</button>
+
+<button (click)="bringToFront()" class="ml-2">
+    Bring to front
+</button>
+
+
