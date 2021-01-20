@@ -26,21 +26,6 @@ export class AppComponent {
         });
     }
 
-    /**
-     * Hit this and all you do here:
-     * setSendbirdHandlers()
-     * will not be fired.
-     */
-    sendToBackground() {
-        this.messagingService.geSBInstance().setBackgroundState();
-    }
-
-    /**
-     * Bring to front to enable what happens here:
-     * setSendbirdHandlers()
-     */
-    bringToFront() {
-        this.messagingService.geSBInstance().setForegroundState();
-    }
+    
 
 }
